@@ -4,19 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Downloadt</title>
+    <title>Document</title>
 </head>
-<body>
-  <h1>Download YouTube Thumbnail</h1>
-    <form method="POST">
-      <label for="video_url">Enter YouTube video URL:</label>
-      <input type="text" name="video_url" id="video_url" required>
-      <br>
-      <button type="submit">Download Thumbnail</button>
-    </form>
-  
-      <h2>Thumbnail:</h2>
-      <img src="{{ thumbnail_url }}">
-   
-</body>
+ <body>
+  <h1>YouTube Thumbnail Downloader</h1>
+	<form method="POST">
+		<label for="video_url">Video URL:</label>
+		<input type="text" name="video_url" id="video_url" required>
+		<button type="submit">Download Thumbnail</button>
+	</form>
+  </body>
 </html>
